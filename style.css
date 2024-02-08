@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2C3E50; /* Background color */
+}
+
+.container {
+    background-color: #ECF0F1; /* Form background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #3498DB; /* Header color */
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Label color */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3498DB; /* Input border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: #E74C3C; /* Error message color */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498DB; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980B9; /* Button hover color */
+}
